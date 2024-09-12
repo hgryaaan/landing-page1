@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner">
+            <nav id="navbar">
+                <div class="logo-cod">
+                    <img src="imgs/brasil.png" class="logo">
+                    <div class="logo-text">
+                        <p>SELEÇÃO</p>
+                        <p>BRASILEIRA</p>
+                        <p>DE FUTEBOL</p>
+                    </div>
+                </div>
+
+                <ul id="nav_list">
+                    <li class="nav-item">
+                    <a href="#">Início</a>
+                    </li>                
+                    <li class="nav-item">
+                        <a href="#matches">Jogos</a>
+                    </li>                
+                </ul>
+        
+                <button id="mobile_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>
+
+            <div id="mobile_menu">
+                <ul id="mobile_nav_list">
+                    <li class="nav-item">
+                        <a href="#content">Início</a>
+                    </li>     
+                    <li class="nav-item">
+                        <a href="#matches">Jogos</a>
+                    </li>        
+                </ul>
+            </div>  
+
+        </div>
+    </div>
+
+   <section id="content">
+        <h2>Maiores vitórias da seleção</h2>
+            <div id="home">
+                <div class="home-item">
+                    <img src="imgs/copa-do-mundo.jpg" alt="">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"> 1958</i>
+                        <i class="fa-solid fa-star"> 1962</i>
+                        <i class="fa-solid fa-star"> 1970</i>
+                        <i class="fa-solid fa-star"> 1994</i>
+                        <i class="fa-solid fa-star"> 2002</i>
+                    </div> 
+                </div>
+
+                <div class="home-item">
+                    <img src="imgs/copa-america.jpg" alt="">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"> 1919</i>
+                        <i class="fa-solid fa-star"> 1922</i>
+                        <i class="fa-solid fa-star"> 1949</i>
+                        <i class="fa-solid fa-star"> 1989</i>
+                        <i class="fa-solid fa-star"> 1997</i>
+                        <i class="fa-solid fa-star"> 1999</i>
+                        <i class="fa-solid fa-star"> 2004</i>
+                        <i class="fa-solid fa-star"> 2007</i>
+                        <i class="fa-solid fa-star"> 2019</i>                        
+                    </div> 
+                </div>
+
+                <div class="controls">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="matches">
+        <h2 class="section-title">Última Partida</h2>
+            <div id="last-game">
+                <div class="match-info">
+                    <div class="team-logos">
+                        <p>Brasil</p>
+                        <img src="imgs/brasil-icon.jpg" class="team-logo">
+                        <div class="score"><span>1 - 0</span></div>
+                        <img src="imgs/equador-icon.jpg" class="team-logo">
+                       <p>Equador</p>
+                    </div>
+                    <div class="match-status">
+                        <p>Data: 06/09/2024</p>
+                        <p>Status: Finalizado</p>
+                        <p>Local: Estádio Couto Pereira</p>
+                    </div>
+                </div>
+        </div>
+
+        <h2 class="section-title">Próxima Partida</h2>
+        <div id="next-game">
+                <div class="match-info">
+                    <div class="team-logos">
+                        <p>Brasil</p>
+                        <img src="imgs/brasil-icon.jpg" class="team-logo">
+                        <div class="score"><span> - </span></div>
+                        <img src="imgs/paraguai-icon.jpg" class="team-logo">
+                       <p>Paraguai</p>
+                    </div>
+                    <div class="match-status">
+                        <p>Data: 10/09/2024</p>
+                        <p>Status: A realizar</p>
+                        <p>Local: Defensores del Chaco</p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <div id="newsletter">
+        <div class="sub-container">
+            <div class="sub-box">
+                <h2>Fique ligado em todos os jogos da<br><span>Seleção Brasileira!</span></h2>
+                <form>
+                    <input type="email" placeholder="Digite seu e-mail">
+                    <button>Inscreva-se</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    ryanhgavenda@gmail.com
+</footer>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
