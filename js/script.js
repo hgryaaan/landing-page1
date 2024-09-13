@@ -48,5 +48,16 @@ $(document).ready(function() {
         checkWidth();
     });
     
-    
+
+    /*formulario*/
+    document.getElementById("newsletterForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+        
+        var emailInput = document.getElementById("emailInput").value;
+        if (emailInput === "") {
+            alert("Por favor, digite um e-mail.");
+        } else {
+            alert("E-mail cadastrado com sucesso!");
+        }
+    });    
 });
