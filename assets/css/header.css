@@ -6,13 +6,14 @@
 .banner {
     width: 100%;
     height: 65vh;
-    background-image: url(https://github.com/hgryaaan/opa/blob/main/banner.jpg?raw=true);
+    background-image: url(https://github.com/hgryaaan/landing-page1/blob/main/imgs/banner.jpg?raw=true);
     background-size: cover;
     background-position: 69%;
 }
 
 #navbar {
     display: flex;
+    background-color: rgba(0, 0, 0, 0.192);
     width: 100%;
     align-items: center;
     justify-content: space-between;
@@ -41,6 +42,7 @@
 .logo-text {
     display: flex;
     color: var(--white);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     flex-direction: column;
     text-align: left;
     line-height: 1.2;   
@@ -48,11 +50,11 @@
 }
 
 .nav-item a {
-    font-weight: 600;
+    font-weight: 600;    
     color: var(--white);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-size: 17px;
     text-decoration: none;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 #mobile_menu {
@@ -72,6 +74,7 @@
     #navbar {
         position: relative;
         flex-direction: column;
+        background-color: transparent;
     }
 
     #mobile_btn {

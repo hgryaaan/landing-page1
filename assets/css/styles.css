@@ -14,7 +14,7 @@
 
 :root {
     --yellow: #eeda5ce7;
-    --yellow2: #ffdd00; 
+    --yellow2: #ffcd00; 
     --green: #009C3B;
     --blue: #002776;
     --blue2: #0064A0;
@@ -43,7 +43,17 @@ footer {
     display: flex;
     background-color: var(--yellow);
     color: black;
-    font-weight: 500;
+    font-weight: 600;
     justify-content: center;
     padding: 20px;
+}
+
+#yellow {
+    padding: 4px;
+    background-color: #ffcd00;
+}
+
+#green {
+    padding: 4px;
+    background-color: var(--green);
 }
